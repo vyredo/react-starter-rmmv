@@ -1,3 +1,6 @@
+/// <reference types="rpgmakermv_typescript_dts" />
+/// <reference path="./index.d.ts" />
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -5,6 +8,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  // @ts-ignore
   <React.StrictMode>
     <App />
   </React.StrictMode>,
